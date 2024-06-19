@@ -367,7 +367,7 @@ with gr.Blocks() as demo:
         with gr.Row():
             with gr.Column(scale=1):
                 texts = [
-                    "一直有个疑问，擎天柱是买车险还是人嫌？谁能告诉我，它怎么买的保险再去打架的。",
+                    "一直有个疑问，擎天柱是买车险还是人险？谁能告诉我，它怎么买的保险再去打架的。",
                     "不知道被门夹开的核桃，是否还有补脑的功能。",
                     "Langevin是一位杰出的物理学家。Langevin方程是一个随机微分方程，描述系统在受到确定性和波动（“随机”）力的组合时如何演变。",
                 ]
@@ -440,7 +440,7 @@ with gr.Blocks() as demo:
                 gr.Markdown("### 文本")
                 # gr.Markdown("请上传要转换的文本文件（.txt 格式）。")
                 # text_file_input = gr.File(label="文本文件", file_types=[".txt"])
-                default_text = "四川美食确实以辣闻名，但也有不辣的选择。比如甜水面、赖汤圆、蛋烘糕、叶儿粑等，这些小吃口味温和，甜而不腻，也很受欢迎。"
+                default_text = "一直有个疑问，擎天柱是买车险还是人险？谁能告诉我，它怎么买的保险再去打架的。"
                 text_file_input = gr.Textbox(label=f"朗读文本（字数: {len(default_text)}）", lines=4,
                                              placeholder="Please Input Text...", value=default_text)
                 # 当文本框内容发生变化时调用 update_label 函数
