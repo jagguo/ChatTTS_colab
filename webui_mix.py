@@ -359,7 +359,7 @@ with gr.Blocks() as demo:
     # 项目链接
     gr.Markdown("""
         <div style='text-align: center; font-size: 16px;'>
-            🌟  <a href='https://github.com/6drf21e/ChatTTS_colab'>项目地址 欢迎 start</a> 🌟
+            <h1>Langevin ChatTTS</h1>
         </div>
         """)
 
@@ -367,9 +367,9 @@ with gr.Blocks() as demo:
         with gr.Row():
             with gr.Column(scale=1):
                 texts = [
-                    "四川美食确实以辣闻名，但也有不辣的选择。比如甜水面、赖汤圆、蛋烘糕、叶儿粑等，这些小吃口味温和，甜而不腻，也很受欢迎。",
-                    "我是一个充满活力的人，喜欢运动，喜欢旅行，喜欢尝试新鲜事物。我喜欢挑战自己，不断突破自己的极限，让自己变得更加强大。",
-                    "罗森宣布将于7月24日退市，在华门店超6000家！",
+                    "一直有个疑问，擎天柱是买车险还是人嫌？谁能告诉我，它怎么买的保险再去打架的。",
+                    "不知道被门夹开的核桃，是否还有补脑的功能。",
+                    "Langevin是一位杰出的物理学家。Langevin方程是一个随机微分方程，描述系统在受到确定性和波动（“随机”）力的组合时如何演变。",
                 ]
                 # gr.Markdown("### 随机音色抽卡")
                 gr.Markdown("""
